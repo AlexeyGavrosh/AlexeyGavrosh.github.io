@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alexey Gavrosh | Senior PHP Developer</title>
+<title>Alexey Gavrosh | Senior Software Engineer (Golang, PHP)</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,6 +35,8 @@
   .job .period { color: var(--muted); font-size: 0.9rem; }
   .job .company { color: #6d7684; }
   .job h5 { font-weight: 700; color: var(--accent); }
+  .job ul { margin: 8px 0 0; padding-left: 18px; }
+  .job ul li { margin-bottom: 5px; }
   .skill-group { margin-bottom: 14px; }
   .skill-group .sg-t { font-weight: 600; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
   .badge-skill { background: #e9ecf0; color: #4c525e; font-weight: 500; margin: 2px; }
@@ -69,7 +71,7 @@
   <div class="container">
     <img class="photo mb-4" src="cv_photo.png" alt="Alexey Gavrosh">
     <h1>Alexey Gavrosh</h1>
-    <div class="position fs-4 mb-4">Senior PHP Developer — PHP / Laravel / Symfony</div>
+    <div class="position fs-4 mb-4">Senior Software Engineer (Golang, PHP)</div>
     <div class="mb-4">
       <a class="btn btn-cv me-2 mb-2" href="Alexey_Gavrosh_CV_EN.pdf" download><i class="fas fa-download"></i> Download CV (EN)</a>
       <a class="btn btn-outline-cv mb-2" href="Alexey_Gavrosh_CV_RU.pdf" download><i class="fas fa-download"></i> Скачать CV (RU)</a>
@@ -87,9 +89,9 @@
   <div class="container">
     <h2 class="section-title">About me</h2>
     <p class="lead">
-      Senior PHP Developer specialized in backend-heavy platforms for e-commerce, payment
-      processing and content systems. 7+ years of owning the full delivery cycle — architecture
-      and technical design, API development (Laravel, Symfony), event-driven pipelines, search,
+      Senior Software Engineer (Golang, PHP) specialized in backend-heavy platforms for e-commerce,
+      payment processing and content systems. 7+ years of owning the full delivery cycle — architecture
+      and technical design, API development (Go, Laravel, Symfony), event-driven pipelines, search,
       payment and logistics integrations — through to production operation. Combines deep engineering
       expertise with team practices: technical interviews, onboarding and mentoring.
     </p>
@@ -103,7 +105,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="skill-group"><div class="sg-t">Backend</div>
-          <span class="badge badge-skill">PHP</span><span class="badge badge-skill">Go</span><span class="badge badge-skill">Laravel</span><span class="badge badge-skill">Symfony</span><span class="badge badge-skill">WordPress</span><span class="badge badge-skill">Drupal</span><span class="badge badge-skill">PHPUnit</span></div>
+          <span class="badge badge-skill">Go</span><span class="badge badge-skill">PHP</span><span class="badge badge-skill">Laravel</span><span class="badge badge-skill">Symfony</span><span class="badge badge-skill">WordPress</span><span class="badge badge-skill">Drupal</span><span class="badge badge-skill">PHPUnit</span></div>
         <div class="skill-group"><div class="sg-t">Frontend</div>
           <span class="badge badge-skill">JavaScript</span><span class="badge badge-skill">Vue.js</span><span class="badge badge-skill">React</span><span class="badge badge-skill">Nuxt (SSR)</span><span class="badge badge-skill">jQuery</span><span class="badge badge-skill">Bootstrap</span></div>
         <div class="skill-group"><div class="sg-t">Data &amp; messaging</div>
@@ -128,8 +130,13 @@
       <div class="job">
         <div class="period">09.2024 — 08.2026</div>
         <div class="company">Maxbitsolution · maxbitsolution.com</div>
-        <h5>Senior PHP Developer</h5>
-        <p>High-load microservice platform — dozens of services with horizontal scaling: payment processing, iGaming content delivery. Monolith decomposition, sync (REST/SOAP) and async (Kafka) contracts, heavy operations moved to async pipelines. Search and analytics on OpenSearch / ClickHouse; SQL optimization under load; game updates (400k items) sped up from 15 min to under 1 min; test coverage raised to 80%. End-to-end CI/CD: Swagger contracts → Argo CD → Kubernetes, canary releases. Admin dashboards on Vue / React, WordPress projects, AI/ML integration.</p>
+        <h5>Senior Software Engineer (Golang, PHP)</h5>
+        <ul>
+          <li>Migrated microservices from PHP to Go — ported high-load platform services to Go, preserving sync (REST / SOAP) and async (Kafka) contracts</li>
+          <li>High-load microservice platform — dozens of services with horizontal scaling: payment processing, iGaming content delivery. Monolith decomposition, heavy operations moved to async pipelines — lower API latency, resilient to peak loads</li>
+          <li>Search and analytics on OpenSearch / ClickHouse; SQL optimization under load; game updates (400k items) sped up from 15 min to under 1 min; test coverage raised to 80%</li>
+          <li>End-to-end CI/CD: Swagger contracts → Argo CD → Kubernetes, canary releases. Admin dashboards on Vue / React, WordPress projects, AI/ML integration</li>
+        </ul>
       </div>
       <div class="job">
         <div class="period">12.2020 — 09.2024</div>
